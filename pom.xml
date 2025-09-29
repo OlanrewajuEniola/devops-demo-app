@@ -7,9 +7,12 @@
   <groupId>com.ola</groupId>
   <artifactId>devops-demo-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
   <name>devops-demo-app</name>
   <url>http://maven.apache.org</url>
+
+  <properties>
+    <revision>1.0.0</revision>
+  </properties>
 
   <dependencies>
     <dependency>
