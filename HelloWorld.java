@@ -22,12 +22,11 @@ public class HelloWorld {
 
     static class MyHandler implements HttpHandler {
         public void handle(HttpExchange t) throws IOException {
-            String response = "Hello, Ola is a better DevOps engineer!";
+            String response = "Hello, Ola is a better DevOps engineer and the best in the world!";
             t.sendResponseHeaders(200, response.length());
             OutputStream os = t.getResponseBody();
             os.write(response.getBytes());
             os.close();
         }
     }
-}
 
